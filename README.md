@@ -9,7 +9,7 @@ Hospitals often face challenges in managing patient queries and addressing emerg
 ## Features
 
 - 🎙️ **Voice Interaction**
-  - Speech-to-text for user input
+  - Speech-to-text for patient input
   - Real-time voice recognition
 
 - 🧠 **IBM AI Watsonx Assistant**
@@ -24,17 +24,9 @@ Hospitals often face challenges in managing patient queries and addressing emerg
   - Chat with Watsonx AI assistant
 
 - 📋 **HealthCare Staff DashBoard**
-  - Real-time notification
-  - Smooth transitions and effects
-  - Dark mode interface
+  - Real-time notification if patient require emergency assistant
+
     
-- 💫 **Modern UI/UX**
-  - Animated brain visualization
-  - Real-time sound wave feedback
-  - Smooth transitions and effects
-  - Dark mode interface
-
-
 
 ## Getting Started
 
@@ -66,10 +58,14 @@ npm run dev
 
 ## Usage
 
+### For Patient Assistant
 1. Click the microphone button 
 2. Speak your health-related question clearly
 3. Wait for the AI assistant's response
-4. The response will be  displayed 
+4. The response will be  displayed
+
+### For Doctor Assistant
+1. Ask patient related Information
 
 
 
