@@ -46,7 +46,7 @@ A modern, accessible healthcare AI assistant with voice interaction capabilities
 1. Clone the repository:
 ```bash
 git clone [repository-url]
-cd HealhCare_AI_Assistant_MAIN
+cd HealthCare_AI_Assistant_MAIN
 cd project
 ```
 
