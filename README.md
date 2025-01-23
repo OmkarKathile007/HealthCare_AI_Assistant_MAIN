@@ -66,20 +66,13 @@ npm run dev
 
 ## Usage
 
-1. Click the microphone button or press Space to start voice input
+1. Click the microphone button 
 2. Speak your health-related question clearly
 3. Wait for the AI assistant's response
-4. The response will be both displayed and spoken
+4. The response will be  displayed 
 
 
-## Technical Stack
 
-- **Frontend Framework**: React 18
-- **Language**: TypeScript
-- **Styling**: Tailwind CSS
-- **Icons**: Lucide React
-- **Voice Processing**: Web Speech API
-- **AI Integration**:  AI Watsonx  Assistant 
 
 
 
