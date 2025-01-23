@@ -83,38 +83,4 @@ npm run dev
 
 
 
-### Available Scripts
 
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run preview` - Preview production build
-- `npm run lint` - Run ESLint
-
-### Code Style
-
-- ESLint configuration for TypeScript
-- Prettier for code formatting
-- React best practices and hooks
-
-## Security Considerations
-
-- No sensitive medical data is stored
-- Disclaimer for emergency situations
-- Clear medical advice limitations
-
-
-
-## Acknowledgments
-
-- React Team for the amazing framework
-- Tailwind CSS for the utility-first CSS framework
-- IBM Watson for AI capabilities
-- Lucide for beautiful icons
-
-## Support
-
-For support, please open an issue in the repository or contact the maintainers.
-
-## Disclaimer
-
-This AI assistant is for informational purposes only and should not be considered medical advice. Always consult with healthcare professionals for medical decisions.
