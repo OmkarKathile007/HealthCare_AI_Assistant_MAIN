@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes sound-wave {
+  0% {
+    height: 8px;
+  }
+  50% {
+    height: 32px;
+  }
+  100% {
+    height: 8px;
+  }
+}
+
+.animate-sound-wave {
+  animation: sound-wave 1s ease-in-out infinite;
+}
+
+@keyframes ping {
+  75%, 100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+.animate-ping {
+  animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
