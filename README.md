@@ -1,6 +1,9 @@
 # Healthcare AI Assistant
 
 Hospitals often face challenges in managing patient queries and addressing emergencies in real-time. Patients may need constant assistance, while hospital staff struggle with a high workload. These delays can impact patient satisfaction and, in critical cases, lead to severe outcomes.
+Two Dedicated AI Assistants > Separate assistants for patients and doctors, tailored to their unique needs, ensuring personalized and efficient interactions.
+Voice-Driven Accessibility > Patients interact naturally using voice commands, enabling hands-free operation and making healthcare more accessible.
+
 
 ## Features
 
