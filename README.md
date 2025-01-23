@@ -14,8 +14,7 @@ A modern, accessible healthcare AI assistant with voice interaction capabilities
   - Emergency situation handling
   - Medical disclaimer integration
     
-
- - 🩺 **Doctor DashBoard**
+- 🩺 **Doctor DashBoard**
   - Chat about Patient Medical Details
   - Realtime Patient Condition and Past History
   - Chat with Watsonx AI assistant
@@ -25,7 +24,6 @@ A modern, accessible healthcare AI assistant with voice interaction capabilities
   - Smooth transitions and effects
   - Dark mode interface
     
-
 - 💫 **Modern UI/UX**
   - Animated brain visualization
   - Real-time sound wave feedback
