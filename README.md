@@ -1,6 +1,6 @@
 # Healthcare AI Assistant
 
-A modern, accessible healthcare AI assistant with voice interaction capabilities, built with React, TypeScript, and Tailwind CSS.
+Hospitals often face challenges in managing patient queries and addressing emergencies in real-time. Patients may need constant assistance, while hospital staff struggle with a high workload. These delays can impact patient satisfaction and, in critical cases, lead to severe outcomes.
 
 ## Features
 
