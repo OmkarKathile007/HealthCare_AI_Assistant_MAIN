@@ -74,6 +74,21 @@ const Dashboard = () => {
                 </p>
               </div>
             </div>
+            <div
+              onClick={() => navigate('/patient')}
+              className="bg-gray-800 overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow cursor-pointer"
+            >
+              <div className="p-6">
+                <div className="flex items-center">
+                  
+                  <Users className="h-8 w-8 text-green-500" />
+                  <h3 className="ml-3 text-lg font-medium text-white">Add new Patient Record</h3>
+                </div>
+                {/* <p className="mt-4 text-sm text-gray-400">
+                    Patient Data
+                </p> */}
+              </div>
+            </div>
           </div>
         </div>
       </main>
