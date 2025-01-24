@@ -1,12 +1,12 @@
 
 
-// export default App;
+
 import React, { useState, useEffect, useRef } from 'react';
 import { Mic, MicOff, Brain, Wand2, Sparkles } from 'lucide-react';
 import { detectEmergency, notifyStaff } from './emergencyService';
 import AI_Image from '../assets/AI-Image.png'
 
-// Watson Assistant Types
+
 declare global {
   interface Window {
     watsonAssistantChatOptions: {
