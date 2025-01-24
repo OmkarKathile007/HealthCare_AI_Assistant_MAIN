@@ -4,6 +4,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Mic, MicOff, Brain, Wand2, Sparkles } from 'lucide-react';
 import { detectEmergency, notifyStaff } from './emergencyService';
+import AI_Image from '../assets/AI-Image.png'
 
 // Watson Assistant Types
 declare global {
@@ -26,7 +27,8 @@ function AIAssistantAnimation({ isListening, isSpeaking }) {
       <div className="absolute inset-0 flex items-center justify-center">
         <div className="relative w-screen h-full">
           <div className="w-full h-full rounded-full border-4 border-cyan-400 bg-gray-800 flex items-center justify-center">
-            <Brain className="w-24 h-24 text-cyan-400" />
+            {/* <Brain className="w-24 h-24 text-cyan-400" /> */}
+            <img src={AI_Image} alt="" />
           </div>
           <div className={`absolute inset-0 border-4 border-purple-500 rounded-full ${isListening ? 'animate-ping' : ''}`}></div>
           <div className={`absolute inset-0 border-4 border-cyan-400 rounded-full ${isSpeaking ? 'animate-pulse' : ''}`}></div>
@@ -170,13 +172,13 @@ function App() {
   };
 
   return (
-    <div className="min-h-full bg-gray-900 text-white">
+    <div className="h-screen bg-gray-900 text-white">
       <div className="max-w-4xl m-auto px-4 py-8">
         <AIAssistantAnimation isListening={isListening} isSpeaking={isSpeaking} />
 
         <div className="text-center mb-8">
           <h1 className="text-3xl font-bold bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent">
-            AI ASSISTANT HEALTHCARE
+            YOUR HEALTHCARE COMPANION
           </h1>
           <p className="text-gray-400 mt-2">
             {isListening ? 'Listening...' : isSpeaking ? 'Speaking...' : 'Ready to help'}
@@ -184,7 +186,7 @@ function App() {
         </div>
         
         <div className="bg-gray-800 rounded-2xl shadow-xl overflow-hidden border border-gray-700">
-          <div className="h-96 overflow-y-auto p-6 space-y-4">
+          <div className="h-44 overflow-y-auto p-6 space-y-4">
             {messages.map((message, index) => (
               <div
                 key={index}

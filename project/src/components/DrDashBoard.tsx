@@ -68,7 +68,7 @@ function DrDashBoard() {
               <div className="space-y-4">
                 <div className="flex items-center space-x-3">
                   <Phone className="h-5 w-5 text-blue-600" />
-                  <span className="text-gray-700">+1 (555) 123-4567</span>
+                  <span className="text-gray-700">+91-9999999999</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <Mail className="h-5 w-5 text-blue-600" />

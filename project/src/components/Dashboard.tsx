@@ -1,6 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Mic, Activity, Users, Bell, LogOut } from 'lucide-react';
+import { Mic, Activity, Users, Bell, LogOut,Stethoscope } from 'lucide-react';
+
 
 const Dashboard = () => {
   const navigate = useNavigate();
@@ -35,7 +36,7 @@ const Dashboard = () => {
               <div className="p-6">
                 <div className="flex items-center">
                   <Mic className="h-8 w-8 text-cyan-500" />
-                  <h3 className="ml-3 text-lg font-medium text-white">AI Assistant</h3>
+                  <h3 className="ml-3 text-lg font-medium text-white">AI Assistant for patient</h3>
                 </div>
                 <p className="mt-4 text-sm text-gray-400">
                   Access your personal AI healthcare assistant with voice recognition
@@ -50,6 +51,7 @@ const Dashboard = () => {
               <div className="p-6">
                 <div className="flex items-center">
                   <Users className="h-8 w-8 text-purple-500" />
+                 
                   <h3 className="ml-3 text-lg font-medium text-white">Healthcare Staff</h3>
                 </div>
                 <p className="mt-4 text-sm text-gray-400">
@@ -63,11 +65,12 @@ const Dashboard = () => {
             >
               <div className="p-6">
                 <div className="flex items-center">
-                  <Users className="h-8 w-8 text-purple-500" />
+                  
+                  <Stethoscope className="h-8 w-8 text-red-500" />
                   <h3 className="ml-3 text-lg font-medium text-white">Doctor DashBoard</h3>
                 </div>
                 <p className="mt-4 text-sm text-gray-400">
-                  connect with healthcare staff incase of emergencies
+                    Access patient  Details
                 </p>
               </div>
             </div>
