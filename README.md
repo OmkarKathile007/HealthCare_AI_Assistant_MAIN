@@ -41,7 +41,7 @@ Hospitals often face challenges in managing patient queries and addressing emerg
 
 1. Clone the repository:
 ```bash
-git clone [repository-url]
+git clone https://github.com/OmkarKathile007/HealthCare_AI_Assistant_MAIN.git
 cd HealthCare_AI_Assistant_MAIN
 cd project
 ```
@@ -57,6 +57,7 @@ npm run dev
 ```
 
 For Backend
+
 5.Open new Terminal :
 ```bash
 cd backend
@@ -65,13 +66,18 @@ node db2.connection.js
 
 ## Usage
 
-### For Patient Assistant
+### For Patient Assistant 
+In Dashboard click on AI Assistant for patient
+
 1. Click the microphone button 
 2. Speak your health-related question clearly
 3. Wait for the AI assistant's response
 4. The response will be  displayed
+5. Speak 'emergency' or 'help' in case of patient emergency condition to notify healthcare staff
 
 ### For Doctor Assistant
+In Dashboard click on Doctor DashBoard
+
 1. Ask patient related Information
 
 
