@@ -56,6 +56,12 @@ npm install
 npm run dev
 ```
 
+5. For Backend :
+```bash
+cd backend
+node db2.connection.js
+```
+
 ## Usage
 
 ### For Patient Assistant
