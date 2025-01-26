@@ -56,7 +56,8 @@ npm install
 npm run dev
 ```
 
-5. For Backend :
+For Backend
+5.Open new Terminal :
 ```bash
 cd backend
 node db2.connection.js
