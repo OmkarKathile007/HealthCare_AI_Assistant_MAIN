@@ -7,7 +7,7 @@ import Dashboard from './components/Dashboard';
 import AIAssistant from './components/AIAssistant';
 import StaffDashboard from './components/StaffDashboard';
 import ProtectedRoute from './components/ProtectedRoute';
-// import DrDashBoard from './components/DrDashBoard';
+//import DrDashBoard from './components/DrDashBoard';
 import PatientDetails from './components/PatientDetails';
 import DrDashBoard from './components/DrDashBoard';
 
